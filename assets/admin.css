@@ -1,0 +1,74 @@
+.speedx-reset-wrap {
+	max-width: 980px;
+}
+
+.speedx-title {
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.speedx-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	gap: 18px;
+	margin-top: 18px;
+}
+
+.speedx-card {
+	background: #ffffff;
+	border: 1px solid #dcdfe4;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.speedx-card h2 {
+	margin-top: 0;
+	font-size: 18px;
+	color: #111111;
+}
+
+.speedx-card ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.speedx-card li {
+	margin-bottom: 8px;
+}
+
+.speedx-danger-box {
+	border-color: #b91c1c;
+	background: #fff5f5;
+}
+
+.speedx-danger-box h2,
+.speedx-danger-box p {
+	color: #7f1d1d;
+}
+
+.speedx-confirm-card {
+	margin-top: 20px;
+}
+
+#speedx-reset-confirm {
+	width: 220px;
+	margin-right: 8px;
+}
+
+.speedx-reset-button {
+	background: #b91c1c !important;
+	border-color: #991b1b !important;
+}
+
+.speedx-reset-button:hover,
+.speedx-reset-button:focus {
+	background: #991b1b !important;
+	border-color: #7f1d1d !important;
+}
+
+.speedx-reset-button[disabled] {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
